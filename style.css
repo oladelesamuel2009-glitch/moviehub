@@ -1,0 +1,122 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    padding: 0%;
+}
+nav{
+    display: flex;
+    background-color:  black;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    width: 90%;
+    position: fixed;
+    left: 40px;
+    top: 10px;
+    
+}
+body{
+    background-color: black;
+    color: white;
+}
+.description{
+    align-items: center;
+    text-align: center;
+    margin: 80px;
+}
+a{
+    color: white;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 10px;
+    padding: 20px;  
+}
+.logo{
+    color: red;
+    padding-left: 200px;
+    font-size: 20px;
+}
+.link{
+    display: flex;
+}
+a:hover{
+    color: red;
+    text-decoration:  underline;
+    text-decoration-style: unset;
+}
+.grid{
+    background-color: rgb(63, 62, 62);
+    height: 700px;
+    width: 400px;
+    border-radius: 10px;
+    margin-top: 20px;
+    
+} 
+img{
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+}
+.m-info{
+    display: flex;
+    gap: 20px;
+}
+.btn{
+    margin-left: 200px;
+}
+button{
+    width: 60px;
+    color: red;
+    text-align: center;
+    background-color: rgb(161, 109, 109);
+    border-radius: 5px;
+}
+fieldset{
+    width: 350px;
+    text-align: center;
+    margin: 20px;
+    border-color: red;
+    color: red;
+    height: 30px;
+    padding-top: 5px;
+}
+p{
+   margin-left: 10px;
+}
+h3{
+    margin-left: 10px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    column-gap: -100px;
+    margin: 30px;
+}
+.links{
+    display: block;
+    margin-left: 100px;
+    
+}
+main{
+    display: flex;
+    gap: 150px;
+    margin-left: 200px;
+    padding-top: 50px;
+    
+    
+}
+footer{
+    background-color: rgb(71, 69, 69);
+    height: 300px;
+}
+h4:hover{
+    color: red;
+    cursor: pointer;
+}
+input{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: black;
+    border-color: black;
+}
